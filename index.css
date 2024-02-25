@@ -1,0 +1,227 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#main {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  animation: change 15s linear infinite;
+}
+@keyframes change {
+  0% {
+    background-image: url(./img/ccc.jpg);
+    background-size: 100% 100%;
+  }
+  25% {
+    background-image: url(./img/e.jpg);
+    background-size: 100% 100%;
+  }
+  50% {
+    background-image: url(./img/e.png);
+    background-size: 100% 100%;
+  }
+  75% {
+    background-image: url(./img/ddd.jpg);
+    background-size: 100% 100%;
+  }
+  100% {
+    background-image: url(./img/lll.jpg);
+    background-size: 100% 100%;
+  }
+}
+.main2 {
+  position: relative;
+  background-color: rgba(133, 133, 133, 0.301);
+  height: 25vh;
+  width: 100%;
+  display: none;
+}
+.click {
+  height: 12vh;
+  width: 6vw;
+  border-radius: 100px;
+  border: none;
+  background-image: radial-gradient(
+    rgb(145, 144, 144),
+    rgb(78, 76, 76),
+    rgb(77, 76, 76)
+  );
+  transition: 1s;
+  font-size: 17px;
+  color: white;
+  position: absolute;
+  top: 6%;
+  left: 3.4%;
+}
+.click:hover {
+  background-image: radial-gradient(
+    rgb(78, 76, 76),
+    rgb(78, 76, 76),
+    rgb(78, 76, 76)
+  );
+  cursor: pointer;
+  transition: 1s;
+}
+
+#second {
+  border: 1px solid red;
+}
+.appendin {
+  position: absolute;
+  height: 7vh;
+  width: 18vw;
+  box-shadow: 2px 2px 4px 3px rgb(13, 163, 163);
+  top: 30%;
+  text-align: center;
+  left: 15%;
+}
+.what {
+  position: absolute;
+  left: 37%;
+}
+
+::placeholder {
+  text-align: center;
+}
+.button1 {
+  position: absolute;
+  font-size: 17px;
+  height: 7vh;
+  width: 9vw;
+  background-image: linear-gradient(to right top, #bcd6d6, #1d5863);
+  border: none;
+  box-shadow: 2px 2px 4px 3px rgb(13, 163, 163);
+  transition: 1s;
+  color: white;
+  left: 59%;
+  top: 30%;
+}
+.button1:hover {
+  cursor: pointer;
+  transition: 1s;
+  background-image: linear-gradient(to right top, #1d5863, #bcd6d6);
+}
+.button2 {
+  left: 72%;
+}
+h1 {
+  padding: 15px;
+  background-color: #205155;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  font-family: sans-serif;
+}
+p {
+  padding: 20px;
+  line-height: 1.5;
+  width: 30vw;
+  background-color: #205155;
+  color: white;
+  position: absolute;
+  top: 55%;
+  font-size: 18px;
+  left: 5%;
+  font-family: sans-serif;
+}
+
+.main3 {
+  display: block;
+  width: 100%;
+  background-color: #27526a;
+}
+#section3 {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  background-color: #366d92;
+}
+.div1 {
+  position: absolute;
+  height: 45%;
+  width: 30%;
+  top: 5%;
+  left: 2%;
+  background-image: url("./img/e.jpg");
+  background-size: 100% 100%;
+}
+.div2 {
+  background-image: url("./img/ggg.jfif");
+  background-size: 100% 100%;
+  left: 35%;
+}
+.div3 {
+  background-image: url("./img/bbb.jpg");
+  background-size: 100% 100%;
+  top: 55%;
+  left: 2%;
+}
+.div4 {
+  background-image: url("./img/e.png");
+  background-size: 100% 100%;
+  top: 55%;
+  left: 35%;
+}
+.div5{
+    background-color: rgba(95, 91, 91, 0.541);
+    top:10%;
+    width:45%;
+    height:55%;
+    left:28%;
+    background-image: none;
+}
+.last{
+    height:100vh;
+    width:100%;
+    background-color: #50727B;
+    position: relative;
+}
+#box{
+    position: relative;
+    height:80%;
+    width:70%;
+    top:10%;
+    left:15%;
+    overflow: hidden;
+}
+.prev{
+    position: absolute;
+    left:10%;
+    top: 45%;
+    z-index: 2;
+    opacity: 0.9;
+}
+
+.next{
+    position: absolute;
+    left:80%;
+    top: 45%;
+    opacity: 0.9;
+    z-index: 2;
+}
+
+.pics{
+    position: absolute;
+    height:100%;
+    width:100%;
+    transition: 1s;
+    }
+    #pic1{
+        background-image:url('./img/e.jpg');
+        background-size: 100% 100%;
+    }
+    #pic2{
+        background-image:url('./img/lll.jpg');
+        background-size: 100% 100%;
+    }
+    #pic3{
+        background-image:url('./img/ccc.jpg');
+        background-size: 100% 100%;
+    }
+    #pic4{
+        background-image:url('./img/e.png');
+        background-size: 100% 100%;
+    }
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+height:5vh;
+width:20vw;
+        }
+p{
+    padding:10px;
+    background-color: lightslategray;
+    width:20%;
+}
+    </style>
+</head>
+<body>
+
+    <input type="text" placeholder="Search">
+    <p id="para1">Proramming</p>
+    <p id="para2">MicroSoft</p>
+    <p id="para3">Google</p>
+    <p id="para4">Opera</p>
+    <p id="para4">Samsung</p>
+    <p id="para5">ucorowser</p>
+
+    
+
+    <script src="./code.jquery.com_jquery-3.7.1.slim.min.js"></script>
+    <script>
+$(document).ready(function(){
+    var inp = $('input').val(); // Corrected the input value assignment
+    var arr=['Programming','MicroSoft','Google','Opera','Samsung','Ucorowser'];
+    var para = document.querySelectorAll('p');
+    inp.includes(val)
+if(res){
+res.forEach(item=>{
+    items.innerHTML+= `<div class="list">${item}</div>`  
+});
+};
+});
+
+
+    // inp.keypress(function(){
+    //     alert()
+    //     para.forEach(element => {
+    //         if ($(element).text().includes(inp)) {
+    //             console.log($(element).text());
+    //             $(element).css("display", "block");
+    //         } else {
+    //             $(element).css("display", "none");
+    //         }
+    //     });
+    // })
+
+    </script>
+</body>
+</html>
